@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "KCG Card Schema",
+  "type": "object",
+  "required": ["id", "name", "type", "rarity", "effects"],
+  "properties": {
+    "id": { "type": "string" },
+    "name": { "type": "string" },
+    "type": { "type": "string", "enum": ["Artist", "Song", "Magic", "Direction"] },
+    "rarity": { "type": "string" },
+    "subtype": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  }
+}
