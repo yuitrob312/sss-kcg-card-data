@@ -1,0 +1,15 @@
+{
+  "id": "AA-1",
+  "name": "花譜", 
+  "sub": "花魁鳥"
+  "type": "Artist",
+  "subtype": null,
+  "rarity": "R",
+  "effects": {
+    "onPlay": "VOL+1",
+    "condition": "ステージのActive状態の2枚のArtistカード「花譜」をトラッシュすることで、トラッシュされた花譜がいた場のいずれかのステージにActive状態で出すことができる。",
+    "ability": "このカードをStandby状態にし、魔力Ωを好きなだけ消費する。その後、魔力Ωを消費した数と同じ数のVOLを獲得する。",
+    "c-ability": null,
+    "songEffect": null
+  }
+}
